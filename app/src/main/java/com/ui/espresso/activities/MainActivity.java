@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String rv = BuildConfig.R_VER;
+        String rv = BuildConfig.VERSION_NAME;
         TextView addText = (TextView) findViewById(R.id.main_view_text);
         addText.setText(addText.getText() + " ruby version: " + rv);
 
